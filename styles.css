@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'designhouseOTFLight00';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Pretendard-Regular', sans-serif; /* 본문 기본 폰트 */
+}
+
+.site-header {
+  font-family: 'designhouseOTFLight00', sans-serif; /* 헤더는 디자인하우스체 */
+  color: white;
+  font-size: 2rem;
+  margin: 3%;
+}
+
+/* 기존 스타일 유지 */
+.item {
+  position: absolute;
+  cursor: pointer;
+  border: 0.5px solid rgba(255, 255, 255, 0.341);
+}
+
+.movie {
+  top: 44%;
+  left: 60%;
+  width: 25%;
+  height: 10%;
+}
+
+.camera {
+  top: 20%;
+  left: 30%;
+  width: 10%;
+  height: 5%;
+}
+
+.headphones {
+  top: 57%;
+  left: 25%;
+  width: 20%;
+  height: 5%;
+}
+
+.books {
+  top: 50%;
+  left: 40%;
+  width: 25%;
+  height: 10%;
+}
+
+.desk {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  height: 100vh;
+  background: url('desk-background.jpg') no-repeat center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  box-sizing: border-box;
+}
+
+.tile {
+  color: white;
+}

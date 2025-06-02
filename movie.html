@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>주헌이의 영화</title>
+  <style>
+    @font-face {
+      font-family: 'designhouseOTFLight00';
+      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Pretendard-Regular';
+      src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Pretendard-Regular', sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    header {
+      padding: 1rem;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .home-button {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .site-title {
+      font-family: 'designhouseOTFLight00', serif;
+      font-size: 1.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      width: 100%;
+    }
+
+    .grid-item {
+      position: relative;
+      aspect-ratio: 3 / 4;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 4px 0;
+      font-family: 'Pretendard-Regular', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="home-button">ㅎ</a>
+    <h1 class="site-title">영화</h1>
+  </header>
+
+  <div class="grid">
+    <div class="grid-item">
+      <img src="장화,홍련.webp" alt="장화홍련">
+      <div class="caption">장화, 홍련</div>
+    </div>
+    <div class="grid-item">
+      <img src="desk-background.jpg" alt="영화2">
+      <div class="caption">영화2</div>
+    </div>
+    <div class="grid-item">
+      <img src="movie3.jpg" alt="영화3">
+      <div class="caption">영화3</div>
+    </div>
+    <div class="grid-item">
+      <img src="movie4.jpg" alt="영화4">
+      <div class="caption">영화4</div>
+    </div>
+    <div class="grid-item">
+      <img src="movie5.jpg" alt="영화5">
+      <div class="caption">영화5</div>
+    </div>
+  </div>
+</body>
+</html>
