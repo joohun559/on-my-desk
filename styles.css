@@ -37,28 +37,28 @@ body, html {
 
 .movie {
   top: 44%;
-  left: 60%;
-  width: 25%;
+  left: 65%;
+  width: 30%;
   height: 10%;
 }
 
 .camera {
   top: 20%;
-  left: 30%;
+  left: 35%;
   width: 10%;
   height: 5%;
 }
 
 .headphones {
   top: 57%;
-  left: 25%;
+  left: 30%;
   width: 20%;
   height: 5%;
 }
 
 .books {
   top: 50%;
-  left: 40%;
+  left: 45%;
   width: 25%;
   height: 10%;
 }
